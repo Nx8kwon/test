@@ -1,0 +1,59 @@
+
+@media (max-width: 990px) {
+    .film .film-block{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 580px) {
+    header .menu nav{
+        flex-direction: column;
+        padding-top: 15px;
+    }
+    
+    header .menu nav ul a{
+        padding: 15px 10px;
+    }
+    
+    header .poster{
+        padding: 10px 0px;
+    }
+    
+    header .poster i{
+        font-size: 25px;
+    }
+    
+    header .poster p{
+        font-size: 12px;
+        margin-left: 13px;
+    }
+    
+    header .text{
+        padding: 50px;
+    }
+    
+    header .text h1{
+        font-size: 40px;
+    }
+    
+    header .text p{
+        font-size: 15px;
+    }
+    
+    header .text .btn{
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    header .text .btn a{
+        width: 100%;
+        margin-bottom: 8px;
+    }
+    
+}
+
+@media (max-width: 500px) {
+    .film .film-block{
+        grid-template-columns: 1fr;
+    }
+}
